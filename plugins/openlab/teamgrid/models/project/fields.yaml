@@ -1,0 +1,17 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    id:
+        label: ID
+        disabled: true
+    name:
+        label: Name
+    customer:
+        label: Customer
+    project_manager:
+        label: Project Manager
+    due_date:
+        label: Due Date
+        type: datepicker

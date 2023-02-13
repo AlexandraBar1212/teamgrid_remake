@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Project
+
+# Model Form Field configuration
+form: $/openlab/teamgrid/models/project/fields.yaml
+
+# Model Class name
+modelClass: Openlab\Teamgrid\Models\Project
+
+# Default redirect location
+defaultRedirect: openlab/teamgrid/projects
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: openlab/teamgrid/projects/update/:id
+    redirectClose: openlab/teamgrid/projects
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: openlab/teamgrid/projects
+    redirectClose: openlab/teamgrid/projects
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title
